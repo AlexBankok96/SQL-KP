@@ -1,16 +1,19 @@
-# Игнорирование виртуального окружения
-.venv/
-
-# Игнорирование настроек среды разработки (например, PyCharm)
-.idea/
-
-# Игнорирование артефактов сборки
-__pycache__/
-*.py[cod]
+# Byte-compiled files
+*.pyc
 *.pyo
-*.pyd
+__pycache__/
 
-# Игнорирование файлов, создаваемых системой
-*.DS_Store
-*.log
-.env
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Configuration files
+*.ini
+
+# IDE files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
